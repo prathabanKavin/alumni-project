@@ -1,5 +1,5 @@
 import React from 'react'
-import { List, Datagrid, TextField, EditButton, DeleteButton } from 'react-admin'
+import { List, Datagrid, TextField, EmailField, EditButton, DeleteButton } from 'react-admin'
 
 const MemberList = (props) => {
     return (
@@ -7,7 +7,7 @@ const MemberList = (props) => {
             <Datagrid>
                 <TextField source='id' />
                 <TextField source='name' />
-                <TextField source='email' />
+                <EmailField source='email' />
                 <TextField source='yearOfGraduation' />
                 <TextField source='registrationNumber' />
                 <TextField source='currentPosition' />
