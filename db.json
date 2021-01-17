@@ -1,0 +1,46 @@
+{
+    "members":[
+        {
+            "id": "1",
+            "name": "Sample Person 1",
+            "email": "sampleperson1@univ.jfn.ac.lk",
+            "yearOfGraduation": "2015",
+            "registrationNumber": "2012/CSC/001",
+            "currentPosition": "Sr. Software Architect",
+            "expertise": ["Java", "Python"],
+            "linkedinID":"https://linkedin.com/sampleperson1",
+            "phoneNumber": "0771234567",
+            "facebookID":"https://facebook.com/sampleperson1",
+            "portfolioWebsite":"https://sampleperson1.com",
+            "googleScholarID":"https://sampleperson1.googlescholar.com"
+        },
+        {
+            "id": "2",
+            "name": "Sample Person 2",
+            "email": "sampleperson2@univ.jfn.ac.lk",
+            "yearOfGraduation": "2014",
+            "registrationNumber": "2011/CSC/002",
+            "currentPosition": "Sr. Cloud Engineer",
+            "expertise": ["Cloud", "AWS"],
+            "linkedinID":"https://linkedin.com/sampleperson2",
+            "phoneNumber": "0551234567",
+            "facebookID":"https://facebook.com/sampleperson2",
+            "portfolioWebsite":"https://sampleperson2.com",
+            "googleScholarID":"https://sampleperson2.googlescholar.com"
+        }
+    ],
+    "events":[
+        {
+            "id":"1",
+            "name": "Event 1",
+            "eventType":"Conferences/Workshops",
+            "location": "Online Event",
+            "description": "This is the description about the event1",
+            "image": "/image/image1",
+            "startDate":"25-02-2021",
+            "endDate":"25-02-2021",
+            "noOfParticipants": "20",
+            "contributor":"Sample person 1"
+        }
+    ]
+}

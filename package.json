@@ -1,0 +1,25 @@
+{
+  "name": "alumni-project",
+  "version": "1.0.0",
+  "description": "This project is for collaborating with Alumni of our university",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json --port 5000",
+    "client": "npm start --prefix frontend",
+    "dev" : "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathabanKavin/alumni-project.git"
+  },
+  "author": "Kavin Prathaban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathabanKavin/alumni-project/issues"
+  },
+  "homepage": "https://github.com/prathabanKavin/alumni-project#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "json-server": "^0.16.3"
+  }
+}
